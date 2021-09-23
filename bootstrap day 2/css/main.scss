@@ -1,0 +1,17 @@
+$card-border-radius:12px;
+
+
+
+.banner{
+    height: 140px !important;
+    object-fit: cover;
+}
+.avatar{
+    position: absolute;
+    top: 0;
+    
+}
+.mt-7{
+    margin-top:5rem;
+}
+@import '../node_modules/bootstrap/scss/bootstrap.scss'

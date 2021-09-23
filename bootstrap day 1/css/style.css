@@ -1,0 +1,6 @@
+.rounded{
+    border-radius: 12px !important;
+}
+.object-cover{
+    object-fit: cover;
+}

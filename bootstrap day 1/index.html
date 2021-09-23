@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Day 1</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- base classes -->
+    <!-- primary -> blue
+    secondary ->gray
+    success->green
+    danger-> red
+    info->cyan
+    warning->yellow
+    dark->black
+    light->lightgrey -->
+
+    <!-- typography -->
+    <!-- change font  -> fs-1 ..... fs-5 => display-1 .... display-4
+    change weight -> fw
+    change color -> text-
+    align -> 
+    bg color --> bg-{}
+
+
+    <!-- box model
+    
+    padding => p-0 ..... p-5 -> pl-0....5 pt-0....5 pb pr px-0...5 py-0....5
+    margin => 
+    border => border border-top border-start border-end
+    d-
+    -->
+
+
+
+        <h1 class="display-1 fw-bold text-white bg-primary text-center py-5 my-5 d-none">Welcome to the bootstrap masterclass</h1>
+
+<div class="container d-none">
+    <div class="m-5">
+        <div class="border border-danger border-2  p-2 rounded">
+            <p class="bg-warning d-inline rounded-pill px-3 py-1 small text-white">Bootstrap Example</p>
+            <h1>This is a card</h1>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequuntur temporibus, aliquam sapiente ratione error ducimus molestias quod. Distinctio, culpa minima corporis sit, quidem accusantium laboriosam corrupti temporibus error in expedita suscipit sunt atque non consequatur optio repellendus sint aut molestiae. Consequuntur, natus eligendi sint repellat deleniti neque sit? Sunt.</p>
+        </div>
+    </div>
+</div>
+        
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="border p-2 rounded d-flex">
+                <img src="./img/ck_header.png" alt="" class="rounded object-cover" height="300" width="200">
+                <div class="px-3">
+                    <h1 class="fs-3 fw-bold">Comfee Tees For Students</h1>
+                    <p class="bg-warning d-inline rounded-pill px-2 py-1 small">50% Off Today</p>
+
+                    <p class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe nam, nulla soluta harum repellendus odio totam ea natus perferendis.</p>
+                    <p class="fw-bold">Rs 499 <span class="text-muted fw-light"><del>Rs 999</del></span></p>
+                    <a href="" class="btn btn-dark">Purchase Now</a>
+                    <a href="" class="btn btn-outline-dark">Add to Wishlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
