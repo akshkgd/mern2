@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="./css/style.css">
+  
 </head>
 <body>
 
@@ -28,7 +28,7 @@
                     <a href="" class="nav-link text-dark">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="btn btn-dark rounded-pill px-4">Sign Up for Free</a>
+                    <a href="" class="btn btn-dark rounded-pill px-4" type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign Up for Free</a>
                 </li>
             </ul>
           </div>
@@ -39,59 +39,32 @@
 
     <!-- navbar ends -->
 
- <!-- <div class="alert alert-primary text-center fs-5">Welcome, You are the first visitor today 🎉</div> -->
- <div class="container mt-5">
-     <div class="card d-none">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="card">
+                    <img src="./img/banner.jpeg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="">This is a Banner</h2>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat unde exercitationem architecto natus necessitatibus ea voluptates et, officiis ad blanditiis? At suscipit odit sint atque optio cupiditate vel doloremque. Dicta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    
-    <table class="table table-hover">
-        <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
-        </tr>
-        <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italy</td>
-        </tr>
-      </table>
- </div>
-
-
-
-</div>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-5 ">
-            <div class="login">
-                <form action="" class="">
-                <h1 class="fw-bolder">Welcome Back 👋</h1>
+ <h1 class="mt-5 title d-none">welcome to Bootstrap</h1>
+<!-- Modal -->
+<div class="modal " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="model-title fw-bolder">Start Coding for Free</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        <div class="modal-body">
+            <form action="" class="">
+                
                 <!-- <h1 class=" fs-5">2 Incorrect attempts <span class="badge bg-danger rounded-pill">1 Left</span></h1> -->
                 <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae distinctio veritatis temporibus eveniet mollitia quibusdam.</p>
                 <div class="form-floating">
@@ -105,12 +78,11 @@
                 <!-- <p class="small"></p> -->
                     <button type="submit" class="btn btn-dark mt-2 rounded-pill px-4">Login Now</button>
             </form>
-            </div>
         </div>
+        
+      </div>
     </div>
-</div>
-
-
+  </div>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
