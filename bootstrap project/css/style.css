@@ -1,0 +1,41 @@
+.hero{
+    background-image: url('../img/full-hero-lwc-XL.webp');
+    height: 500px;
+    background-size: cover;
+}
+.hero-content{
+    color: white;
+    padding: 170px 0 0 100px;
+}
+.ad{
+    background-image: url('../img/panel-books-XL.webp');
+    height: 500px;
+    background-size: cover;
+    border-radius: 12px;
+}
+.ad-content{
+    /* color: white; */
+    /* padding: 170px 0 0 100px; */
+}
+.test{
+   color: white;
+   padding: 170px 0 0 38%;
+}
+.banner-1{
+    background-image: url('../img/panel-careers.webp');
+    height: 600px;
+    background-size: cover;
+    border-radius: 12px !important;
+}
+.banner-1-content{
+    padding: 200px 150px 0 150px;
+}
+.banner-2{
+    background-image: url('../img/panel-life.webp');
+    height: 600px;
+    background-size: cover;
+    border-radius: 12px !important;
+}
+.banner-2-content{
+    padding: 200px 120px 0 120px;
+}
